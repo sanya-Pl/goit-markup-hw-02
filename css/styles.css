@@ -9,18 +9,17 @@
     --title-text-color: #212121;
     --accent-color: #2196F3 ;
     --primary-white-color: #ffffff;
-    --background: #F5F4FA;
+    --background:  #E5E5E5;
     --футер: #2F303A;
     --футер: rgba(255, 255, 255, 0.4);
   }
 
 body{
     color: #757575;
-    background-color: #fff;
-
-
+    background-color: var(--background);
     font-family: roboto,sans-serif;
-
+    font-size: 14px;
+    line-height: 1.7;
   
 }
 
@@ -39,6 +38,7 @@ body{
 
    font-size: 26px;
    line-height: 1.2;
+   text-decoration: none;
   }
 /* identical to box height */
 
@@ -51,6 +51,7 @@ body{
 
 .list{
     list-style: none;
+    
 }
 
 /* Site nav */
@@ -60,7 +61,11 @@ body{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
+   
+}
 
+.list .link{
+  text-decoration: none;
 }
 
 
@@ -76,11 +81,12 @@ body{
 /* Герой */
 
 .hero-title{
-    color: var(--accent-color);
+    color: var(--primary-white-color);
     
     font-weight: 900;
     font-size: 44px;
     line-height: 1.4;
+    text-align: center;
 }
 /* секцыя героя */
 
@@ -91,22 +97,30 @@ body{
  .section-title{
     color: var(--title-text-color);
 
-    font-weight: bold;
-font-size: 36px;
-line-height: 1.2;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
 }
 
 /* правила */
 
 .feature-list .title{
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
   }
+
+.feature-list{
+  
+}
 
 /* Чем мы занимаемся */
 
 .section .works{
 color: var(--primary-white-color);
-font-weight: bold;
+font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 }
@@ -114,9 +128,15 @@ line-height: 1.14;
 /* чем мы занимаемся */
 
 /* наша команда */
+
+.comand{
+  background-color: #F5F4FA;
+}
+
+
 .section .name{
   color: var(--title-text-color);
-  font-weight: bold;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
 }
@@ -124,10 +144,12 @@ line-height: 1.14;
 .main .buton{
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  text-decoration: none;
 }
 .form .buton{
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  text-decoration: none;
 }
 
 
