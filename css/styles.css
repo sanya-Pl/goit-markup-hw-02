@@ -20,11 +20,30 @@ body{
 
 
     font-family: roboto,sans-serif;
+
+  
 }
+
+  /* кнопка */
+.buton{
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.9;
+}
+/* logo */
 
 .logo {
   color: var(--accent-color);
-}
+  font-family: Raleway, sans-serif;
+
+   font-size: 26px;
+   line-height: 1.2;
+  }
+/* identical to box height */
+
+
+
 
 .logo:hover {
     color: var(--title-text-color);
@@ -36,7 +55,12 @@ body{
 
 /* Site nav */
 .list-nav .link{
-     color: var(--title-text-color);
+    color: var(--title-text-color);
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+
 }
 
 
@@ -45,16 +69,31 @@ body{
   color: var(--accent-color);
 }
 
+.list-nav .lin  .current{
+  color: var(--accent-color);
+}
+
 /* Герой */
 
 .hero-title{
-    color: var(--primary-white-color);
+    color: var(--accent-color);
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
 }
+/* секцыя героя */
+
+
 
 /* section */
 .section
  .section-title{
     color: var(--title-text-color);
+
+    font-weight: bold;
+font-size: 36px;
+line-height: 1.2;
 }
 
 /* правила */
@@ -67,6 +106,9 @@ body{
 
 .section .works{
 color: var(--primary-white-color);
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
 }
 
 /* чем мы занимаемся */
@@ -74,6 +116,18 @@ color: var(--primary-white-color);
 /* наша команда */
 .section .name{
   color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.main .buton{
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+.form .buton{
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 
