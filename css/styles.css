@@ -67,12 +67,14 @@ body{
 .list .link{
   text-decoration: none;
 }
-
-
-.list-nav .link:hover,
-.list-nav .link:focus{
+.list-nav .link:focus,
+.list-nav .link:hover{
   color: var(--accent-color);
 }
+/* 
+.list-nav .link:focus{
+  color: var(--accent-color);
+} */
 
 .list-nav .list .link .current {
   color: var(--accent-color);
