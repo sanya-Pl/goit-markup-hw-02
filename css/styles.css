@@ -74,7 +74,7 @@ body{
   color: var(--accent-color);
 }
 
-.list-nav .lin  .current{
+.list-nav .list .link .current {
   color: var(--accent-color);
 }
 
@@ -152,8 +152,15 @@ line-height: 1.14;
   text-decoration: none;
 }
 
+/* footer */
+
+footer {
+  background-color: #2f303a;
+  }
 
 
 body {
     font-family: 'Helvetica Neue', 'Roboto', 'Verdana', 'Tahoma', sans-serif;
   }
+
+  <a class ="icon link" href="" aria-label="Ссылка на Instagram">Instagram</a> 
