@@ -22,6 +22,9 @@ body{
     line-height: 1.7;
   
 }
+.list{
+  list-style: none;
+}
 
   /* кнопка */
 .buton{
@@ -76,7 +79,7 @@ body{
   color: var(--accent-color);
 } */
 
-.list-nav .list .link .current {
+.list-nav .link.current {
   color: var(--accent-color);
 }
 
@@ -159,6 +162,16 @@ line-height: 1.14;
 footer {
   background-color: #2f303a;
   }
+
+
+.copyright {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.social > .label {
+  font-size: 15px;
+  line-height: 1.6;
 
 
 body {
