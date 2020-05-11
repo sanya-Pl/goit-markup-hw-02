@@ -38,22 +38,32 @@ body{
 .logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
-
+  font-weight: bold;
    font-size: 26px;
    line-height: 1.2;
    text-decoration: none;
   }
 /* identical to box height */
+.logo .logo-web {
+  color: var(--title-text-color);
+}
+.logo .logo-web:hover{
+  color: var(--accent-color);
+}
 
+.logo:hover {
+color: var(--title-text-color);
+}
 
-
-
+ /* 
 .logo:hover {
     color: var(--title-text-color);
 }
+  */
 
 .list{
     list-style: none;
+    
     
 }
 
@@ -172,10 +182,56 @@ footer {
 .social > .label {
   font-size: 15px;
   line-height: 1.6;
+}
 
 
+  /* PORTFOLIO.HTML */
+
+
+.projects .one {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #F5F4FA;
+  border-radius: 4px;
+ 
+}
+
+.projects.list .one.important {
+  background: #2196F3;
+  color: #FFFFFF;
+}
+/* сайт */
+.list .title-name {
+  font-weight: 700;
+font-size: 18px;
+line-height: 1.8;
+color: var(--title-text-color);
+
+
+}
+
+.list .text.list {  
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--primary-text-color);
+  font-weight: 400;
+  
+}
+.list .list-nav {
+  text-decoration: none;
+}
+.list .list.one{
+  font-size: 18px;
+  line-height: 1.6;
+  color: #FFFFFF;
+
+}
+
+/* 
 body {
     font-family: 'Helvetica Neue', 'Roboto', 'Verdana', 'Tahoma', sans-serif;
-  }
+  } */
 
-  <a class ="icon link" href="" aria-label="Ссылка на Instagram">Instagram</a> 
+  
